@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website</title>
+    <link rel="stylesheet" href="./Navbar1.css">
+    <link rel="stylesheet" href="./Footer.css">
+    <link rel="stylesheet" href="./Home.css">
+    <link rel="stylesheet" href="./Menu.css">
+    <link rel="stylesheet" href="./AboutUS.css">
+    <link rel="stylesheet" href="./contact.css">
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="navbar-logo">
+            <a href="#"><img src="https://png.pngtree.com/png-clipart/20220903/ourmid/pngtree-chef-restaurant-logo-png-image_6136204.png" alt="Restaurant Logo"></a>
+
+        </div>
+        <div>
+            <h2>My Restaurant</h2>
+        </div>
+        <ul class="navbar-menu" id="navbar-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a href="#book" class="book-now-btn">Book Now</a>
+    
+        <div class="hamburger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+    
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById('navbar-menu');
+            menu.classList.toggle('active');
+        }
+    </script>
+
+
+ <!-- Home Section -->
+  <section class="home-section" id="home" >
+    <div class="home-content">
+        <h1>Welcome to our Restaurant!</h1>
+        <p>Discover the flavors of exquisite cuisine and warm ambiance.</p>
+        <img src="https://t3.ftcdn.net/jpg/03/24/73/92/360_F_324739203_keeq8udvv0P2h1MLYJ0GLSlTBagoXS48.jpg" alt="Restaurant Interior">
+
+        <img src="https://media.istockphoto.com/id/1316145932/photo/table-top-view-of-spicy-food.jpg?s=612x612&w=0&k=20&c=eaKRSIAoRGHMibSfahMyQS6iFADyVy1pnPdy1O5rZ98=" alt="food">
+        <p>Experience the best dining experiencewith delicious food and a cozy atosmphere.</p>
+        <a href="#menu" class="hero-btn">Explore Our Menu</a>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+   <section id="menu" class="menu-section">
+    <h2>Our Delicious Menu</h2>
+    <p>Enjoy finest creation of our chef's made with fresh ingredients and a passion for perfection.</p>
+    <div class="menu-grid">
+        <div class="menu-item">
+            <img src="https://arteflame.com/cdn/shop/articles/perfectly_grilled_salmon_in_Japanese_BBQ_sauce.webp?v=1717430340&width=1600" alt="Grilled Salmon">
+            <h3>Grilled Salmon</h3>
+            <p>Fresh salmon grilled to perfection with a side of seasoned vegetables.</p>
+            <p class="price">$25</p>
+        </div>
+        <div class="menu-item">
+            <img src="https://arteflame.com/cdn/shop/articles/perfectly_grilled_salmon_in_Japanese_BBQ_sauce.webp?v=1717430340&width=1600" alt="Grilled Salmon">
+            <h3>Grilled Salmon</h3>
+            <p>Fresh salmon grilled to perfection with a side of seasoned vegetables.</p>
+            <p class="price">$25</p>
+        </div>
+        <div class="menu-item">
+            <img src="https://arteflame.com/cdn/shop/articles/perfectly_grilled_salmon_in_Japanese_BBQ_sauce.webp?v=1717430340&width=1600" alt="Grilled Salmon">
+            <h3>Grilled Salmon</h3>
+            <p>Fresh salmon grilled to perfection with a side of seasoned vegetables.</p>
+            <p class="price">$85</p>
+        </div>
+        <div class="menu-item">
+            <img src="https://arteflame.com/cdn/shop/articles/perfectly_grilled_salmon_in_Japanese_BBQ_sauce.webp?v=1717430340&width=1600" alt="Grilled Salmon">
+            <h3>Grilled Salmon</h3>
+            <p>Fresh salmon grilled to perfection with a side of seasoned vegetables.</p>
+            <p class="price">$95</p>
+        </div>
+        <div class="menu-item">
+            <img src="https://arteflame.com/cdn/shop/articles/perfectly_grilled_salmon_in_Japanese_BBQ_sauce.webp?v=1717430340&width=1600" alt="Grilled Salmon">
+            <h3>Grilled Salmon</h3>
+            <p>Fresh salmon grilled to perfection with a side of seasoned vegetables.</p>
+            <p class="price">$95</p>
+        </div>
+
+        <div class="menu-item">
+            <img src="https://arteflame.com/cdn/shop/articles/perfectly_grilled_salmon_in_Japanese_BBQ_sauce.webp?v=1717430340&width=1600" alt="Grilled Salmon">
+            <h3>Grilled Salmon</h3>
+            <p>Fresh salmon grilled to perfection with a side of seasoned vegetables.</p>
+            <p class="price">$95</p>
+        </div>
+        <div class="menu-item">
+            <img src="https://arteflame.com/cdn/shop/articles/perfectly_grilled_salmon_in_Japanese_BBQ_sauce.webp?v=1717430340&width=1600" alt="Grilled Salmon">
+            <h3>Grilled Salmon</h3>
+            <p>Fresh salmon grilled to perfection with a side of seasoned vegetables.</p>
+            <p class="price">$95</p>
+        </div>
+        <div class="menu-item">
+            <img src="https://arteflame.com/cdn/shop/articles/perfectly_grilled_salmon_in_Japanese_BBQ_sauce.webp?v=1717430340&width=1600" alt="Grilled Salmon">
+            <h3>Grilled Salmon</h3>
+            <p>Fresh salmon grilled to perfection with a side of seasoned vegetables.</p>
+            <p class="price">$95</p>
+        </div>
+        <div class="menu-item">
+            <img src="https://arteflame.com/cdn/shop/articles/perfectly_grilled_salmon_in_Japanese_BBQ_sauce.webp?v=1717430340&width=1600" alt="Grilled Salmon">
+            <h3>Grilled Salmon</h3>
+            <p>Fresh salmon grilled to perfection with a side of seasoned vegetables.</p>
+            <p class="price">$95</p>
+        </div>
+
+        
+    </div>
+
+   </section>
+
+   <!-- About Us-->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Welcome to <strong>My Restaurant</strong>, where culinary excellenece meets a warm, inviting atosmphere. Our joureny began with a passion for great food and a desire to share memorable dining experiencewith our guest</p>
+            <p>At My Restaurant Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis rem nihil veritatis quidem asperiores deserunt modi veniam soluta, incidunt voluptatem atque quasi eveniet maiores id temporibus ut odio, itaque ipsam.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, aliquid. Adipisci facere culpa delectus praesentium possimus omnis est numquam debitis minima neque quibusdam, mollitia, inventore nemo eos, autem natus? Accusantium.</p>
+            <img class="about-image" src="https://b.zmtcdn.com/data/pictures/8/20687118/1e935ddfb0730112c4a6f872ddc43a09.jpg" alt="About our Restaurant"> 
+        </div>
+    </section>
+
+    <!--Contact Us-->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or would like to make a resevation, feel free to react out to us!</p>
+            <form action="" method="post">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" rows="4" required></textarea>
+            </div>
+
+            <button type="submit" class="btn-submit">Send Message</button>
+        </form>
+        </div>
+
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+        document.querySelector("form").addEventListener("submit", function (event) {
+            event.preventDefault(); // Prevent the default form submission
+    
+            // Initialize EmailJS
+            emailjs.init("2uuVzEIwfzbVtiD6B"); // Replace YOUR_USER_ID with your EmailJS User ID
+    
+            // Collect form data
+            const formData = {
+                name: document.getElementById("name").value,
+                email: document.getElementById("email").value,
+                message: document.getElementById("message").value,
+            };
+    
+            // Send email
+            emailjs.send("service_tg029ot", "template_tjp5pgq", formData)
+                .then(
+                    function (response) {
+                        alert("Message sent successfully!");
+                        console.log("SUCCESS!", response.status, response.text);
+                        document.querySelector("form").reset(); // Reset the form
+                    },
+                    function (error) {
+                        alert("Failed to send message. Please try again later.");
+                        console.error("FAILED...", error);
+                    }
+                );
+        });
+    </script>
+
+  
+
+  
+
+ 
+
+
+
+
+<!--Add Footer-->
+
+    <footer  class="footer">
+        <div class="container">
+            <div class="footer-row">
+                <div class="footer-column">
+                    <h5 class="text-uppercase">About Us</h5>
+                    <p>@<span id="year"></span>Restaurant Website. All rights reserved.</p>
+                </div>
+
+                <div class="footer-column">
+                    <h5 class="text-uppercase">Contact</h5>
+                    <p>123 XYZ Street, Sunneytown,ST 12345</p>
+                    <p>Email: <a href="mailto:contact@restaurantwebsite.com" class="text-white">contact@restaurant.com</a></p>
+                    <p>Phone: <a href="tel:+11234567890" class="text-white">(123)456-7890</a></p>
+                </div>
+
+                <div class="footer-column">
+                    <h5 class="text-uppercase">Follow Us</h5>
+                    <a href="http://facebook.com" class="social-link">Facebook</a>
+                    <a href="http://twitter.com" class="social-link">Twitter</a>
+                    <a href="http://linkedin.com" class="social-link">LinkedIn</a>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>Designed and developed by <a href="http://yourwebsite.com" class="text-white">My Restaurant</a></p>
+
+            </div>
+        </div>
+
+    </footer>
+
+    <script>
+        document.getElementById(`year`).textContent=new Date().getFullYear();
+    </script>
+    
+</body>
+</html>
